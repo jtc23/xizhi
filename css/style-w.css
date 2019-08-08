@@ -1,0 +1,167 @@
+@import url(base.css);
+.line { height: 0.12rem; background-color: #f0f0f0; width: 7.5rem; }
+
+.wrapper-fill { min-width: 320px; width: 7.5rem; margin: 0 auto; }
+
+.wrapper { width: 6.9rem; margin: 0 auto; }
+
+@font-face { font-family: PingFang-SC-Regular; src: url("../fonts/PingFangSC-Regular.ttf"); }
+@font-face { font-family: PingFang-SC-Bold; src: url("../fonts/PingFangSC-Bold.ttf"); }
+@font-face { font-family: PingFang-SC-Medium; src: url("../fonts/PingFangSC-Medium.ttf"); }
+.clear::after { content: ''; display: block; clear: both; }
+
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.index .banner { position: relative; height: 4.2rem; }
+.index .banner img { width: 7.5rem; height: 4.2rem; display: block; }
+.index .banner::after { content: ''; width: 100%; height: 100%; background: #333; position: absolute; top: 0; left: 0; opacity: 0.4; }
+.index .banner .mask { height: 100%; width: 100%; position: absolute; left: 0; top: 0; z-index: 3; color: #ffffff; padding-top: 1.12rem; }
+.index .banner .mask h1 { height: 0.48rem; font-family: PingFang-SC-Bold; font-size: 0.48rem; line-height: 0.48rem; letter-spacing: 0px; color: #ffffff; text-align: center; margin-bottom: 0.26rem; }
+.index .banner .mask p { text-align: center; padding-left: 0.66rem; padding-right: 0.66rem; font-family: PingFang-SC-Medium; font-size: 0.28rem; line-height: 0.42rem; letter-spacing: 0px; color: #ffffff; }
+.index .product { padding-top: 0.52rem; padding-bottom: 0.24rem; }
+.index .product .swiper-container { padding-bottom: 0.6rem; }
+.index .product .swiper-container .item { font-size: 0; width: 6.9rem; }
+.index .product .swiper-container .item li { display: inline-block; margin-top: 0.32rem; }
+.index .product .swiper-container .item li:nth-of-type(2) { margin-left: 0.18rem; margin-right: 0.18rem; }
+.index .product .swiper-container .item li:nth-of-type(5) { margin-left: 0.18rem; margin-right: 0.18rem; }
+.index .product .swiper-container .item li a { display: block; }
+.index .product .swiper-container .item li a img { width: 2.18rem; height: 1.64rem; }
+.index .product .swiper-container .item li a p { font-size: 0.28rem; font-family: PingFang-SC-Regular; line-height: 0.42rem; width: 2.18rem; word-wrap: normal; text-align: center; margin: 0.26rem auto 0.12rem; }
+.index .product .swiper-container .swiper-pagination { z-index: 4; bottom: 0.1rem; }
+.index .product .swiper-container .swiper-pagination span { height: 0.07rem; background: #e0e0e0; border-radius: 0.03rem; width: 0.36rem; margin: 0; }
+.index .product .swiper-container .swiper-pagination .swiper-pagination-bullet-active { background: #e94609; }
+.index .common { font-family: PingFang-SC-Bold; font-size: 0.42rem; color: #212121; height: 0.6rem; line-height: 0.42rem; padding-bottom: 0.2rem; }
+.index .common a.more { font-family: PingFang-SC-Regular; font-size: 0.28rem; color: #bdbdbd; float: right; line-height: 0.42rem; }
+.index .line { height: 0.12rem; background-color: #f0f0f0; width: 7.5rem; }
+.index .case { padding-top: 0.52rem; }
+.index .case ul li.item { border-bottom: 0.01rem solid #e3e3e3; margin-top: 0.52rem; }
+.index .case ul li.item:nth-last-of-type(1) { border: none; }
+.index .case ul li.item:nth-of-type(1) { margin-top: 0.32rem; }
+.index .case ul li.item img { width: 6.9rem; height: auto; }
+.index .case ul li.item h3 { font-family: PingFang-SC-Bold; font-size: 0.28rem; color: #333333; margin-top: 0.25rem; margin-bottom: 0.21rem; }
+.index .case ul li.item p { font-family: PingFang-SC-Regular; color: #666666; font-size: 0.28rem; line-height: 0.42rem; }
+.index .case ul li.item a.details { display: block; width: 1.2rem; height: 0.28rem; position: relative; color: #999999; font-size: 0.28rem; line-height: 0.28rem; margin-top: 0.36rem; margin-bottom: 0.48rem; }
+.index .case ul li.item a.details::after { content: '>'; font-size: 0.28rem; line-height: 0.28rem; display: block; position: absolute; top: 0; right: -0.38rem; }
+.index .case ul li.item a.active { color: #e94609; }
+.index .video-album ul { font-size: 0; }
+.index .video-album ul li { height: 2.16rem; width: 3.26rem; display: inline-block; margin: 0.5rem auto; }
+.index .video-album ul li a { display: block; position: relative; height: 2.16rem; width: 3.26rem; }
+.index .video-album ul li a::after { content: ''; display: block; position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: #333; opacity: 0.4; }
+.index .video-album ul li a div { position: absolute; text-align: center; width: 100%; height: 100%; top: 0; left: 0; z-index: 3; }
+.index .video-album ul li a div p { font-family: PingFang-SC-Medium; color: #ffffff; font-size: 0.32rem; line-height: 0.32rem; }
+.index .video-album ul li a div.index-video img { display: block; width: 0.44rem; height: 0.34rem; margin: 0.7rem auto 0.2rem; }
+.index .video-album ul li a div.index-album img { display: block; width: 0.4rem; height: 0.4rem; margin: 0.66rem auto 0.18rem; }
+.index .new { padding-top: 0.6rem; }
+.index .new .new-1st { margin-top: 0.34rem; }
+.index .new .new-1st img { display: block; width: 6.9rem; height: auto; }
+.index .new .new-1st h4 { font-family: PingFang-SC-Bold; font-size: 0.28rem; color: #333; margin-top: 0.3rem; margin-bottom: 0.24rem; }
+.index .new .new-1st p { font-family: PingFang-SC-Regular; font-size: 0.28rem; line-height: 0.42rem; color: #666666; }
+.index .new .new-1st a.details { display: block; width: 1.2rem; height: 0.28rem; position: relative; color: #999999; font-size: 0.28rem; line-height: 0.28rem; margin-top: 0.36rem; margin-bottom: 0.48rem; }
+.index .new .new-1st a.details::after { content: '>'; font-size: 0.28rem; line-height: 0.28rem; display: block; position: absolute; top: 0; right: -0.38rem; }
+.index .new .new-list li { display: block; padding-top: 0.56rem; padding-bottom: 0.5rem; border-top: solid 0.01rem #e3e3e3; height: 2.74rem; }
+.index .new .new-list li .new-title { width: 3.6rem; height: auto; line-height: 0.42rem; font-size: 0.28rem; }
+.index .new .new-list li .new-title h4 { font-family: PingFang-SC-Bold; color: #333; }
+.index .new .new-list li .new-title p { font-family: PingFang-SC-Regular; color: #999999; margin-top: 0.16rem; }
+.index .new .new-list li .new-pic img { display: block; width: 2.5rem; height: 1.66rem; }
+
+.meifen .top-content { padding-top: 0.56rem; padding-bottom: 0.2rem; border-top: #666666 0.01rem solid; }
+.meifen .top-content h1 { margin-bottom: 0.38rem; text-align: center; }
+.meifen .top-content h1 span { display: inline-block; text-align: left; font-size: 0.42rem; line-height: 0.42rem; color: #333; font-family: PingFang-SC-Bold; }
+.meifen .top-content p { font-family: PingFang-SC-Regular; font-size: 0.28rem; line-height: 0.42rem; color: #666666; }
+.meifen .common { font-size: 0.42rem; line-height: 0.42rem; color: #212121; position: relative; padding-left: 0.28rem; }
+.meifen .common::before { content: ''; display: block; position: absolute; top: 0.05rem; left: 0; height: 0.32rem; width: 0.06rem; background: #e94609; border-radius: 0.02rem; }
+.meifen .common a.more { font-family: PingFang-SC-Regular; font-size: 0.28rem; color: #bdbdbd; float: right; line-height: 0.42rem; }
+.meifen .line { height: 0.12rem; background-color: #f0f0f0; width: 7.5rem; }
+.meifen .technology { padding-top: 0.6rem; padding-bottom: 0.6rem; }
+.meifen .technology video { display: block; width: 6.9rem; height: auto; }
+.meifen .technology .common { margin-bottom: 0.6rem; }
+.meifen .related-products { padding-top: 0.6rem; padding-bottom: 0.4rem; }
+.meifen .related-products .swiper-container { padding-bottom: 0.6rem; }
+.meifen .related-products .swiper-container .item { font-size: 0; width: 6.9rem; }
+.meifen .related-products .swiper-container .item li { display: inline-block; margin-top: 0.52rem; }
+.meifen .related-products .swiper-container .item li:nth-of-type(2) { margin-left: 0.18rem; margin-right: 0.18rem; }
+.meifen .related-products .swiper-container .item li:nth-of-type(5) { margin-left: 0.18rem; margin-right: 0.18rem; }
+.meifen .related-products .swiper-container .item li a { display: block; }
+.meifen .related-products .swiper-container .item li a img { width: 2.18rem; height: 1.64rem; }
+.meifen .related-products .swiper-container .item li a p { font-size: 0.28rem; font-family: PingFang-SC-Regular; line-height: 0.42rem; width: 2.18rem; word-wrap: normal; text-align: center; margin: 0.26rem auto 0.12rem; }
+.meifen .related-products .swiper-container .swiper-pagination { z-index: 4; bottom: 0.1rem; }
+.meifen .related-products .swiper-container .swiper-pagination span { height: 0.07rem; background: #e0e0e0; border-radius: 0.03rem; width: 0.36rem; margin: 0; }
+.meifen .related-products .swiper-container .swiper-pagination .swiper-pagination-bullet-active { background: #e94609; }
+.meifen .application { padding-top: 0.52rem; padding-bottom: 0.52rem; }
+.meifen .application .app-list li { padding-top: 0.6rem; padding-bottom: 0.6rem; border-bottom: 0.01rem solid #d9d9d9; }
+.meifen .application .app-list li:nth-last-of-type(1) { border: none; padding-bottom: 0; }
+.meifen .application .app-list li .img-box { position: relative; height: 3.88rem; width: 6.9rem; }
+.meifen .application .app-list li .img-box::after { content: ''; display: block; position: absolute; height: 20%; width: 100%; background: #333; opacity: .6; left: 0; bottom: 0; }
+.meifen .application .app-list li .img-box .img-mask { position: absolute; z-index: 3; height: 20%; width: 100%; font-size: 0.28rem; font-family: PingFang-SC-Bold; color: #fefefe; left: 0; bottom: 0; }
+.meifen .application .app-list li .img-box .img-mask h5 { padding-left: 0.33rem; padding-top: 0.2rem; }
+.meifen .application .app-list li .img-box img { width: 6.9rem; height: auto; }
+.meifen .application .app-list li p { font-family: PingFang-SC-Regular; font-size: 0.28rem; line-height: 0.42rem; color: #666666; margin-top: 0.2rem; }
+.meifen .relevant-cases { padding-top: 0.6rem; padding-bottom: 0.6rem; }
+.meifen .relevant-cases ul li.item { border-bottom: 0.01rem solid #e3e3e3; margin-top: 0.52rem; }
+.meifen .relevant-cases ul li.item:nth-last-of-type(1) { border: none; }
+.meifen .relevant-cases ul li.item:nth-last-of-type(1) a.details { margin-bottom: 0; }
+.meifen .relevant-cases ul li.item img { width: 6.9rem; height: auto; }
+.meifen .relevant-cases ul li.item h4 { font-family: PingFang-SC-Bold; font-size: 0.28rem; color: #333333; margin-top: 0.25rem; margin-bottom: 0.21rem; }
+.meifen .relevant-cases ul li.item p { font-family: PingFang-SC-Regular; color: #666666; font-size: 0.28rem; line-height: 0.42rem; }
+.meifen .relevant-cases ul li.item a.details { display: block; width: 1.2rem; height: 0.28rem; position: relative; color: #999999; font-size: 0.28rem; line-height: 0.28rem; margin-top: 0.36rem; margin-bottom: 0.48rem; }
+.meifen .relevant-cases ul li.item a.details::after { content: '>'; font-size: 0.28rem; line-height: 0.28rem; display: block; position: absolute; top: 0; right: -0.38rem; }
+.meifen .relevant-cases ul li.item a.active { color: #e94609; }
+
+.videos .banner img { width: 7.5rem; height: auto; }
+.videos .tabs { text-align: center; padding-bottom: 0.54rem; }
+.videos .tabs .tabs-list { font-size: 0; margin-top: 0.22rem; }
+.videos .tabs .tabs-list li { display: inline-block; margin-right: 0.5rem; }
+.videos .tabs .tabs-list li:nth-last-of-type(1) { margin: 0; }
+.videos .tabs .tabs-list li a { display: block; position: relative; overflow: visible; height: 0.72rem; width: 1.2rem; font-family: PingFang-SC-Regular; font-size: 0.28rem; line-height: 0.72rem; color: #cccccc; }
+.videos .tabs .tabs-list li.active a { color: #e94609; }
+.videos .tabs .tabs-list li.active a::after { content: ''; width: 0.28rem; height: 0.04rem; background-color: #e94609; border-radius: 0.01rem; position: absolute; display: block; bottom: 0; left: 50%; margin-left: -0.14rem; }
+.videos .tabs .video-list { font-size: 0; }
+.videos .tabs .video-list li.item { margin-top: 0.48rem; }
+.videos .tabs .video-list li.item .v-box { position: relative; height: 1.88rem; width: 3.36rem; }
+.videos .tabs .video-list li.item .v-box img.img-fluid { display: block; height: 1.88rem; width: 3.36rem; }
+.videos .tabs .video-list li.item .v-box span { display: block; background: #333333; width: 0.46rem; height: 0.46rem; position: absolute; top: 50%; left: 50%; margin-left: -0.23rem; margin-top: -0.23rem; border-radius: 50%; opacity: .7; }
+.videos .tabs .video-list li.item .v-box span img { width: 0.46rem; height: 0.46rem; }
+.videos .tabs .video-list li.item p { font-family: PingFang-SC-Regular; font-size: 0.28rem; color: #333; width: 3.36rem; margin-top: 0.13rem; line-height: 0.42rem; }
+.videos .line { height: 0.12rem; background-color: #f0f0f0; width: 7.5rem; }
+
+.materiel-list .banner { position: relative; height: 4.2rem; }
+.materiel-list .banner img { width: 7.5rem; height: 4.2rem; display: block; }
+.materiel-list .banner::after { content: ''; width: 100%; height: 100%; background: #333; position: absolute; top: 0; left: 0; opacity: 0.4; }
+.materiel-list .banner .mask { height: 100%; width: 100%; position: absolute; left: 0; top: 0; z-index: 3; color: #ffffff; padding-top: 1.12rem; }
+.materiel-list .banner .mask h1 { height: 0.48rem; font-family: PingFang-SC-Bold; font-size: 0.48rem; line-height: 0.48rem; letter-spacing: 0px; color: #ffffff; text-align: center; margin-bottom: 0.26rem; }
+.materiel-list .banner .mask p { text-align: center; padding-left: 0.66rem; padding-right: 0.66rem; font-family: PingFang-SC-Medium; font-size: 0.28rem; line-height: 0.42rem; letter-spacing: 0px; color: #ffffff; }
+.materiel-list .materiels { text-align: center; padding-bottom: 0.6rem; }
+.materiel-list .materiels ul { font-size: 0; }
+.materiel-list .materiels ul li { display: inline-block; margin-top: 0.6rem; margin-left: 0.18rem; margin-right: 0.18rem; }
+.materiel-list .materiels ul li a { display: block; }
+.materiel-list .materiels ul li a img { height: 1.36rem; width: 1.36rem; }
+.materiel-list .materiels ul li a p { width: 1.36rem; font-family: PingFang-SC-Regular; font-size: 0.28rem; color: #333; margin-top: 0.26rem; line-height: 0.28rem; }
+.materiel-list .line { height: 0.12rem; background-color: #f0f0f0; width: 7.5rem; }
+
+.new-con .line { height: 0.12rem; background-color: #f0f0f0; width: 7.5rem; }
+.new-con .top-pic img { width: 7.5rem; height: auto; }
+.new-con .new-box h1 { text-align: center; }
+.new-con .new-box h1 span { display: inline-block; text-align: left; font-family: PingFang-SC-Medium; font-size: 0.32rem; line-height: 0.32rem; color: #333; margin-top: 0.4rem; margin-bottom: 0.26rem; }
+.new-con .new-box .text-center { text-align: center; font-family: PingFang-SC-Medium; font-size: 0.24rem; line-height: 0.24rem; color: #ccc; }
+.new-con .new-box .new-main { margin-top: 0.26rem; padding-bottom: 0.52rem; }
+.new-con .new-box .new-main p { font-family: PingFang-SC-Regular; font-size: 0.28rem; color: #666666; line-height: 0.42rem; text-indent: 2em; padding-left: 0.06rem; padding-right: 0.06rem; }
+
+.news-list .banner img { width: 7.5rem; height: auto; }
+.news-list .line { height: 0.12rem; background-color: #f0f0f0; width: 7.5rem; }
+.news-list .news-tabs { text-align: center; padding-bottom: 0.54rem; }
+.news-list .news-tabs .tabs-list { font-size: 0; margin-top: 0.22rem; }
+.news-list .news-tabs .tabs-list li { display: inline-block; margin-right: 0.5rem; }
+.news-list .news-tabs .tabs-list li:nth-last-of-type(1) { margin: 0; }
+.news-list .news-tabs .tabs-list li a { display: block; position: relative; overflow: visible; height: 0.72rem; width: 1.2rem; font-family: PingFang-SC-Regular; font-size: 0.28rem; line-height: 0.72rem; color: #cccccc; }
+.news-list .news-tabs .tabs-list li.active a { color: #e94609; }
+.news-list .news-tabs .tabs-list li.active a::after { content: ''; width: 0.28rem; height: 0.04rem; background-color: #e94609; border-radius: 0.01rem; position: absolute; display: block; bottom: 0; left: 50%; margin-left: -0.14rem; }
+.news-list .news-list-box li { display: block; padding-top: 0.56rem; padding-bottom: 0.5rem; border-top: solid 0.01rem #e3e3e3; height: 2.74rem; }
+.news-list .news-list-box li:nth-of-type(1) { border: none; padding-top: 0; height: 2.24rem; }
+.news-list .news-list-box li .new-title { width: 3.6rem; height: auto; line-height: 0.42rem; font-size: 0.28rem; }
+.news-list .news-list-box li .new-title h4 { font-family: PingFang-SC-Bold; color: #333; }
+.news-list .news-list-box li .new-title p { font-family: PingFang-SC-Regular; color: #999999; margin-top: 0.16rem; }
+.news-list .news-list-box li .new-pic img { display: block; width: 2.5rem; height: 1.66rem; }
+
+.video-con .video-con-p { font-family: PingFang-SC-Medium; font-size: 0.32rem; color: #333333; text-align: center; margin: 0.35rem auto 0.56rem; }

@@ -1,0 +1,306 @@
+<?php
+if(!defined('InEmpireCMS'))
+{
+	exit();
+}
+?><!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="/css/swiper.min.css">
+	<link rel="stylesheet" href="/css/common.css">
+		<script src="/js/rem.js"></script>
+</head>
+<body ontouchstart>
+			<!-- 头部菜单-->
+			<header class="container header">
+				<div class="row">
+					<div class="col-3" id="logo"><a href="/"><img class="img-fluid" src="./images/logo.png" data-retina="true"></a></div>
+					<div class="col-8" id="nav">
+						<ul class="show">
+							<li>
+								<a href="/">首页</a>
+							</li>
+							<li>
+								<a href="/chanpin/">产品</a>
+							</li>
+							<li>
+								<a href="/anli/">案例</a>
+							</li>
+							<li>
+								<a href="/news/">新闻</a>
+							</li>
+			
+						</ul>
+			
+					</div>
+					<div class="col-1" id="menu-icon">
+						<a href="javascript:;" class="close"><img src="./images/menu.png" alt=""></a>
+					</div>
+					<div class="main-menu " style=>
+						<ul>
+							<li><a class="close" id="close" type="button" aria-label="Close"><span>导航菜单</span></a></li>
+							<li>
+								<a href="/">首页</a></li>
+							<li>
+								<a href="/chanpin/">产品中心</a></li>
+							<li>
+								<a href="/anli/">客户案例</a></li>
+							<li>
+								<a href="/news/">新闻中心</a></li>
+							<li>
+								<a href="/shipin/">视频中心</a></li>
+							<li>
+								<a href="/wuliao/">物料加工</a></li>
+							<li>
+								<a href="/about/">关于我们</a></li>
+							<li>
+								<a class="close" id="close" type="button" aria-label="Close">
+									<img  src="./images/nav-ico.png">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+		<div class="index">
+			<!-- banner -->
+			<div class="wrapper-fill banner">
+				<img src="images/index-banner.jpg" alt="" class="img-fluid">
+				<div class="mask">
+					<h1>经验引领成功的未来</h1>
+					<p>30年来，我们成功地建立了各类型圆锥式破碎机、磨粉机、制砂机等设备的生产经验，将帮助您解决各种问题</p>
+				</div>
+			</div>
+			<!-- 产品中心 -->
+			<div class="wrapper-fill product">
+				<div class="wrapper">
+					<h2 class="common clear">产品中心<a href="" class="more">更多</a></h2>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<ul class="item">
+									<li>
+										<a href="">
+											<img src="images/hgt.jpg" alt="" class="img-fluid">
+											<p>HGT系列<br>旋回式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/pew.jpg" alt="" class="img-fluid">
+											<p>PEW系列<br>颚式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/pe.jpg" alt="" class="img-fluid">
+											<p>PE系列<br>颚式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/c6x.jpg" alt="" class="img-fluid">
+											<p>C6X系列<br>颚式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/ci5x.jpg" alt="" class="img-fluid">
+											<p>CI5X系列<br>反击式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/pfw.jpg" alt="" class="img-fluid">
+											<p>PFW系列<br>反击式破碎机</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="swiper-slide">
+								<ul class="item">
+									<li>
+										<a href="">
+											<img src="images/hgt.jpg" alt="" class="img-fluid">
+											<p>HGT系列<br>旋回式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/pew.jpg" alt="" class="img-fluid">
+											<p>PEW系列<br>颚式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/pe.jpg" alt="" class="img-fluid">
+											<p>PE系列<br>颚式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/c6x.jpg" alt="" class="img-fluid">
+											<p>C6X系列<br>颚式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/ci5x.jpg" alt="" class="img-fluid">
+											<p>CI5X系列<br>反击式破碎机</p>
+										</a>
+									</li>
+									<li>
+										<a href="">
+											<img src="images/pfw.jpg" alt="" class="img-fluid">
+											<p>PFW系列<br>反击式破碎机</p>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</div>
+			<!-- line -->
+			<div class="wrapper-fill line"></div>
+			<!-- 解决方案 -->
+			<div class="wrapper-fill case">
+				<div class="wrapper">
+					<h2 class="common clear">解决方案<a href="" class="more">更多</a></h2>
+				</div>
+				<div class="wrapper">
+					<ul>
+						<li class="item">
+							<img src="images/case-1.jpg" alt="" class="img-fluid">
+							<div class="case-box">
+								<h3 class="case-box-t">澳大利亚150tph石料破碎筛分生产线</h3>
+								<p>首先，大块物料有卡车或挖掘机运送至振动给料机，然后又振动给料机均匀地送入颚破的破碎腔中。</p>
+								<a href="" class="details active">查看详情</a>
+							</div>
+						</li>
+						<li class="item">
+							<img src="images/case-1.jpg" alt="" class="img-fluid">
+							<div>
+								<h3>澳大利亚150tph石料破碎筛分生产线</h3>
+								<p>首先，大块物料有卡车或挖掘机运送至振动给料机，然后又振动给料机均匀地送入颚破的破碎腔中。</p>
+								<a href="" class="details ">查看详情</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- line -->
+			<div class="wrapper-fill line"></div>
+			<!-- 视频/画册 -->
+			<div class="wrapper-fill video-album">
+				<div class="wrapper">
+					<ul class="clear">
+						<li class="f-left">
+							<a href="">
+								<img src="images/index-video.jpg" alt="" class="img-fluid">
+								<div class="index-video">
+									<img src="images/video-icon.png" >
+									<p>企业视频</p>
+								</div>
+							</a>
+						</li>
+						<li class="f-right">
+							<a href="">
+								<img src="images/index-album.jpg" alt="" class="img-fluid">
+								<div class="index-album">
+									<img src="images/album-icon.png" alt="">
+									<p>产品画册</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- line -->
+			<div class="wrapper-fill line"></div>
+			<!-- 新闻 -->
+			<div class="wrapper-fill new">
+				<div class="wrapper">
+					<h2 class="common clear">新闻<a href="" class="more">更多</a></h2>
+				</div>
+				<div class="wrapper">
+					<div class="new-1st">
+						<img src="images/new-1st.jpg" alt="" class="img-fluid">
+						<h4>2019德国宝马展！ZENITH再次亮相世界舞台</h4>
+						<p>2019年4月8日，全球非常大的工程矿山机械行业展会BAUMA 2019在德国慕尼黑拉开了为期七天的巨幕。</p>
+						<a href="" class="details">查看详情</a>
+					</div>
+					<div class="new-list">
+						<ul>
+							<li>
+								<a href="">
+									<div class="f-left new-title">
+										<h4>2019德国宝马展！ZENITH再次亮相世界舞台</h4>
+										<p>2019-7-18</p>
+									</div>
+									<div class="f-right new-pic">
+										<img src="images/new-list.jpg" alt="" class="img-fluid">
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<div class="f-left new-title">
+										<h4>2019德国宝马展！ZENITH再次亮相世界舞台</h4>
+										<p>2019-7-18</p>
+									</div>
+									<div class="f-right new-pic">
+										<img src="images/new-list.jpg" alt="" class="img-fluid">
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- line -->
+			<div class="wrapper-fill line"></div>
+		</div>
+		<!-- footer -->
+		<section class="conversion">
+			<div class="average">
+				<div class="container">
+					<div class="row">
+						<div class="col"><a href="https://nbq.zoosnet.net/lr/chatpre.aspx?id=nbq93654447&amp;lng=cn&amp;r=&amp;rf1=https%3A//m.shibangchina&amp;rf2=.com/chanpin/&amp;p=https%3A//m.shibangchina.com/chanpin/crusher/pew.html&amp;cid=475ee242bcd44c65b539b22d30fa1f13&amp;sid=9af56609ab814289b58703ec0cf2aa7e"
+							 onclick="_hmt.push([‘_trackEvent’, ‘在线客服按钮’, ‘click’, ‘商务通’]); " target="_blank">
+								<div class="chat"><i></i><span>获取报价</span></div>
+							</a></div>
+						<div class="col"><a href="tel:021-58381996">
+								<div class="phone"><i></i><span>电话咨询</span></div>
+							</a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="copy">&copy; 2000-2019 上海西芝矿山工程机械有限公司 沪ICP备10028452号</div>
+			</div>
+		</footer>
+	</body>
+</html>
+		<script src="/js/chat.js"></script>
+		<script src="/js/jquery.min.js" type="text/javascript"></script>
+		<script src="/js/swiper.min.js"></script>
+		<script src="/js/common.js"></script>
+		<script>
+			$(document).ready(function() {
+			     var mySwiper = new Swiper('.swiper-container', {
+		autoplay : 3000,
+        pagination : '.swiper-pagination',
+        paginationClickable: true
+    });
+ });
+
+		</script>

@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>高级搜索 - Powered by EmpireCMS</title>
+<link href="http://172.16.0.254/skin/default/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://172.16.0.254/skin/default/js/tabs.js"></script>
+<script src="http://172.16.0.254/e/data/images/setday.js"></script>
+</head>
+<body class="listpage">
+[!--temp.dtheader--]
+<table width="100%" border="0" cellspacing="10" cellpadding="0">
+	<tr valign="top">
+		<td class="list_content"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
+				<tr>
+					<td>现在的位置：<a href='http://172.16.0.254/'>首页</a>&nbsp;>&nbsp;<a href='../search/'>高级搜索</a>&nbsp;></td>
+				</tr>
+			</table>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">
+				<tr>
+					<td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td><form action='http://172.16.0.254/e/search/index.php' method="post" name="search_news" id="search_news">
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="54%"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td bgcolor="#F4F4F4"><strong>搜索范围</strong></td>
+													</tr>
+											</table></td>
+											<td width="46%"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td bgcolor="#F4F4F4"><strong>搜索栏目</strong></td>
+													</tr>
+											</table></td>
+										</tr>
+										<tr>
+											<td valign="top"><table width="100%" border="0" cellpadding="6" cellspacing="0">
+													<tr>
+														<td><input type="radio" name="show" value="title" checked="checked" />
+															标题
+															<input type="radio" name="show" value="smalltext" />
+															简介
+															<input type="radio" name="show" value="newstext" />
+															内容
+															<input type="radio" name="show" value="writer" />
+															作者
+															<input name="show" type="radio" value="title,smalltext,newstext,writer" />
+															不限</td>
+													</tr>
+												</table>
+													<br />
+													<table width="100%" border="0" cellpadding="6" cellspacing="0">
+														<tr bgcolor="#F4F4F4">
+															<td><strong>时间限制</strong><font color="#666666">(0000-00-00为不限制)</font></td>
+														</tr>
+														<tr>
+															<td height="30" valign="top">从
+																<input name="starttime" type="text" value="0000-00-00" size="12" onclick="setday(this)" />
+																到
+																<input name="endtime" type="text" value="0000-00-00" size="12" onclick="setday(this)" />
+																之间的数据</td>
+														</tr>
+														<tr>
+															<td bgcolor="#F4F4F4"><strong>价格限制</strong><font color="#666666">(商城模型中有效,0为不限制)</font></td>
+														</tr>
+														<tr>
+															<td>从
+																<input name="startprice" type="text" id="startprice" value="0" size="6" />
+																到
+																<input name="endprice" type="text" id="endprice" value="0" size="6" />
+																元之间</td>
+														</tr>
+												</table></td>
+											<td valign="top"><table width="100%" border="0" cellspacing="6" cellpadding="0">
+													<tr>
+														<td><select name="classid" size="8" id="select2" style="width: 100%;height:112px">
+																<option value="0" selected="selected">所有栏目</option>
+															<option value='1'>|-产品</option><option value='2' style='background:#99C4E3'>&nbsp;&nbsp;|-破碎设备</option><option value='3' style='background:#99C4E3'>&nbsp;&nbsp;|-制砂设备</option><option value='4' style='background:#99C4E3'>&nbsp;&nbsp;|-移动破碎站</option><option value='5' style='background:#99C4E3'>&nbsp;&nbsp;|-磨粉设备</option><option value='6'>|-关于西芝</option><option value='7'>|-联系我们</option><option value='8'>|-画册</option><option value='9'>|-案例</option><option value='11' style='background:#99C4E3'>&nbsp;&nbsp;|-epc</option><option value='12' style='background:#99C4E3'>&nbsp;&nbsp;|-砂石骨料</option><option value='13' style='background:#99C4E3'>&nbsp;&nbsp;|-矿山处理</option><option value='14' style='background:#99C4E3'>&nbsp;&nbsp;|-工业制粉</option>
+          
+														</select></td>
+													</tr>
+												</table>
+													<table width="100%" border="0" cellpadding="6" cellspacing="0">
+														<tr>
+															<td bgcolor="#F4F4F4"><strong>结果显示</strong></td>
+														</tr>
+														<tr>
+															<td height="30"><select name="orderby" id="select4">
+																	<option value="">按发布日期</option>
+																	<option value="id">信息ID</option>
+																	<option value="plnum">评论数</option>
+																	<option value="onclick">人气</option>
+																	<option value="totaldown">下载数</option>
+																</select>
+																	<select name="myorder" id="select5">
+																		<option value="0">倒序排列</option>
+																		<option value="1">顺序排列</option>
+																	</select>
+															</td>
+														</tr>
+												</table></td>
+										</tr>
+									</table>
+								<table width="100%" border="0" cellpadding="4" cellspacing="0">
+										<tr>
+											<td>关键字：
+												<input name="keyboard" type="text" id="keyboard2" size="60" />
+													<input type="submit" name="Submit22" value="搜索" />
+											</td>
+										</tr>
+									</table>
+							</form></td>
+						</tr>
+					</table></td>
+				</tr>
+			</table></td>
+	</tr>
+</table>
+		<div class="yuding">
+			<div class="container">
+				<h3>专家30分钟快速答复</h3>
+				<h4>7*24小时响应</h4>
+				<form class="yuyue" name="feedback" method="post" enctype="multiple/form-data" action="//inquiry.shibangchina.com/updata_ppc.php" >
+					<div class="name">	<input type="text" name="name" placeholder="如何称呼您？"></div>
+
+					<div class="phone">	<input type="text"  placeholder="您的电话?" name="phone"></div>
+					<div class="shebei">
+						<p class="yijian">业务需求:</p>
+						<div class="form-check">
+							<div><input name="content" type="checkbox" value="业务需求:生产砂石骨料"><span>生产砂石骨料</span></div>
+							<div><input name="content" type="checkbox" value="业务需求:生产机制砂"><span>生产机制砂</span></div>
+							<div><input name="content" type="checkbox" value="业务需求:工业制粉"><span>工业制粉</span></div>
+						</div>
+					</div>
+
+
+					<button type="submit" value="马上预约" class="submit">马上预约</button>
+				</form>
+			</div>
+			
+		</div>
+
+		<section class="conversion" >
+			<div class="average">
+				<div class="container">
+					<div class="row">
+						<div class="col"><a onclick="openZoosUrl('chatwin')" target="_blank"><div class="chat"><i></i><span>获取报价</span></div></a></div>
+						<div class="col"><a href="tel:021-58381996"><div class="phone"><i></i><span>电话咨询</span></div></a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+
+				<div class="copy"> 上海西芝矿山工程机械有限公司 © 2000-2019 版权所有 
+				沪ICP备10028452号</div>
+			</div>
+		</footer>
+
+		<script src="/js/chat.js"></script>
+		<script src="/js/jquery.min.js" type="text/javascript"></script>
+		<script src="/js/swiper.min.js"></script>
+		<script src="/js/common.js"></script>
+</body>
+</html>
