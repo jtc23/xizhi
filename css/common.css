@@ -209,9 +209,6 @@ body {
 .left {
   float: left;
 }
-.details.active {
-  color: #e94609;
-}
 .header {
   font-size: .32rem;
   width: 100%;
@@ -1978,6 +1975,9 @@ footer {
 }
 .contact .imgbox {
   padding-top: .4rem;
+}
+.details.active {
+  color: #e94609;
 }
 @media only screen and (min-width: 768px) {
   .container {
