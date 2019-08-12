@@ -1976,10 +1976,12 @@ footer {
 .contact .imgbox {
   padding-top: .4rem;
 }
-.details.active {
+.relatedcase .cells .details.active,
+.case-list .cells .details.active {
   color: #e94609;
 }
-.details:hover {
+.relatedcase .cells .details:hover,
+.case-list .cells .details:hover {
   color: #e94609;
 }
 @media only screen and (min-width: 768px) {
