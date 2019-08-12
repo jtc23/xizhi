@@ -1979,6 +1979,9 @@ footer {
 .details.active {
   color: #e94609;
 }
+.details:hover {
+  color: #e94609;
+}
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 720px;
