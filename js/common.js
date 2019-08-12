@@ -7,6 +7,8 @@ if(($(document).height()-$(document).scrollTop()-$(window).height()-$('footer').
 	setTimeout(function(){$('.conversion').css("position","fixed");},600);}
 });
 
+
+
 $(document).ready(function() {
     $(window).scroll(function() {
         if (($(document).height() - $(document).scrollTop() - $(window).height() - $('footer').outerHeight(true) - $(
@@ -48,5 +50,27 @@ $('.video-list .item:odd').addClass('f-right');
     $('.productchar .item').eq(i).removeClass('hidden');
     });
   });
-
+$(".details").attr('ontouchstart', 'hover(this)');//hover效果
+     $(".details").attr('ontouchend', 'mouseout(this)');//秒除hover
 });
+ function mouseout(obj) {
+  var className = "active";
+  var _ecname = obj.className;
+  if (_ecname.length == 0) return;
+  if (_ecname == className) {
+   obj.className = "";return;
+  }
+  if (_ecname.match(new RegExp("(^|\\s)" + className + "(\\s|$)")))
+   obj.className = _ecname.replace((new RegExp("(^|\\s)" + className + "(\\s|$)")), " ");
+ }
+ function hover(obj) {
+  if (!obj) return;
+  var className = "active"
+  var _ecname = obj.className;
+  if (_ecname.length == 0) {
+   obj.className = className;return;
+  }
+  if (_ecname == className || _ecname.match(new RegExp("(^|\\s)" + className + "(\\s|$)")))
+   return;
+  obj.className = _ecname + " " + className;
+ }

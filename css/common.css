@@ -209,6 +209,9 @@ body {
 .left {
   float: left;
 }
+.details.active {
+  color: #e94609;
+}
 .header {
   font-size: .32rem;
   width: 100%;
@@ -1368,12 +1371,9 @@ footer {
 .case-list .cells p {
   color: #666;
 }
-.case-list .cells .more {
+.case-list .cells .details {
   margin-top: .3rem;
   color: #999;
-}
-.case-list .cells .more.active {
-  color: ##e94609;
 }
 .case-list .cells:nth-child(2) {
   padding-top: 0;
@@ -1630,7 +1630,7 @@ footer {
 .relatedcase .cells p {
   color: #666;
 }
-.relatedcase .cells .more {
+.relatedcase .cells .details {
   margin-top: .3rem;
   color: #999;
 }

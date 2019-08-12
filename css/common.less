@@ -36,6 +36,11 @@ body {margin: 0 auto;font-family: sans-serif;background-color: #fff;color: #7575
 .left{
 	float: left;
 }
+.details{
+	&.active{
+		color: #e94609;
+	}
+}
 .header{
 	font-size: .32rem;
 	width: 100%;
@@ -583,12 +588,9 @@ footer{
 			p{
 				color:#666;
 			}
-			.more{
+			.details{
 				margin-top: .3rem;
 				color: #999;
-				&.active{
-					color: ##e94609;
-				}
 			}
 	}
 	.cells:nth-child(2){
@@ -855,7 +857,7 @@ border-bottom:.1rem solid #f0f0f0;
 			p{
 				color:#666;
 			}
-			.more{
+			.details{
 				margin-top: .3rem;
 				color: #999;
 			}
